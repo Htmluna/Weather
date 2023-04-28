@@ -11,7 +11,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(hsl(274, 55%, 28%), #8ca6db);
+    background: linear-gradient(#0B2447, #19376D, #576CBC,
+    #A5D7E8);
 }
 
 .container{
@@ -36,7 +37,7 @@ body{
 }
 
 .search-box input{
-    color: #5f3c82;
+    color: #0B2447;
     width: 80%;
     font-size: 24px;
     font-weight: 500;
@@ -47,7 +48,7 @@ body{
 .search-box input::placeholder{
     font-size: 20px;
     font-weight: 500;
-    color: #5f3c82;
+    color: #0B2447;
     text-transform: capitalize;
 }
 
@@ -55,7 +56,7 @@ body{
     cursor: pointer;
     width: 50px;
     height: 50px;
-    color: #5f3c82;
+    color: #0B2447;
     background: #fff;
     border-radius: 50%;
     font-size: 22px;
@@ -64,12 +65,12 @@ body{
 
 .search-box button:hover{
     color: #fff;
-    background: #5f3c82;
+    background: #19376D;
 }
 
 .search-box i{
     position: absolute;
-    color: #5f3c82;
+    color: #0B2447;
     font-size: 28px;
 }
 
@@ -84,7 +85,7 @@ body{
 
 .weather-box .temperature{
     position: relative;
-    color: #5f3c82;
+    color: #19376D;
     font-size: 4rem;
     font-weight: 800;
     margin-top: 30px;
@@ -98,7 +99,7 @@ body{
 }
 
 .weather-box .description{
-    color: #5f3c82;
+    color: #19376D;
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
@@ -129,20 +130,20 @@ body{
 }
 
 .weather-details i{
-    color: #5f3c82;
+    color: #19376D;
     font-size: 26px;
     margin-right: 10px;
     margin-top: 6px;
 }
 
 .weather-details span{
-    color: #5f3c82;
+    color: #19376D;
     font-size: 22px;
     font-weight: 500;
 }
 
 .weather-details p{
-    color: #5f3c82;
+    color: #19376D;
     font-size: 14px;
     font-weight: 500;
 }
@@ -161,7 +162,7 @@ body{
 }
 
 .not-found p{
-    color: #5f3c82;
+    color: #19376D;
     font-size: 22px;
     font-weight: 500;
     margin-top: 12px;
